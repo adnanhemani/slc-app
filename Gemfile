@@ -58,6 +58,8 @@ group :test do
   gem 'database_cleaner' # required by Cucumber
   gem "factory_bot_rails", "~> 4.0"
   gem 'metric_fu'        # collect code metrics
+  gem 'simplecov-cobertura'
+  gem 'coveralls', :require => false
 end
 
 group :production do
